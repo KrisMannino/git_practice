@@ -7,21 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Kris Mannino</h1>
-        <p>Hello from Kris Mannino</p>
-	   <p>Kayla Farrar says: Hello, Kris!</p>
-        <script>
-            function toggleImage() {
-               var img1 = "http://placeimg.com/640/480/animals";
-               var img2 = "http://placeimg.com/640/480/arch";
+  <h1>Kris Mannino</h1>
+    <p>Hello from Kris Mannino</p>
+    <p>Kayla Farrar says: Hello, Kris!</p>
+    <script>
+      function toggleImage() {
+          var img1 = "http://placeimg.com/640/480/animals";
+          var img2 = "http://placeimg.com/640/480/arch";
 
-               var imgElement = document.getElementById('toggleImage');
+          var imgElement = document.getElementById('toggleImage');
 
-               imgElement.src = (imgElement.src === img1)? img2 : img1;
-            }
-            </script>
-            <img src="http://placeimg.com/640/480/arch" id="toggleImage" onclick="toggleImage();"/>
-
-
+          imgElement.src = (imgElement.src === img1)? img2 : img1;
+      }
+    </script>
+    <img src="http://placeimg.com/640/480/arch" id="toggleImage" onclick="toggleImage();"/>
 </body>
 </html>
